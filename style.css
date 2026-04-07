@@ -1,0 +1,77 @@
+#fundo {
+    background-image: url(fundo.png);
+    background-size: cover;       /* cobre toda a div */
+    background-position: center;  /* centraliza */
+    background-repeat: no-repeat; /* evita repetição */
+    height: 1400px;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-style: dashed;
+    border-color: rgb(94, 34, 34);
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#imagem {
+    border-style: dashed;
+    border-color: rgb(94, 34, 34);
+    background-color: rgb(49, 4, 4);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#texto {
+    border-style: dashed;
+    border-color: rgb(94, 34, 34);
+    background-color: rgb(49, 4, 4);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#Status {
+    margin-top: 15px;
+    border-style: dashed;
+    border-color: rgb(94, 34, 34);
+    background-color: rgb(49, 4, 4);
+
+}
+
+p {
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+    margin: 20px;
+    color: firebrick;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: large;
+    text-align: justify;
+    margin: 20px;
+    color: firebrick;
+}
+
+h1 {
+    text-align: justify;
+    margin: 20px;
+    color: firebrick;
+}
+
+#m60 {
+  position: absolute;
+  right: 300px;
+  top: 95%;
+}
+
+body {
+    background-color: black;
+}
