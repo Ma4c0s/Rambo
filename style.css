@@ -14,6 +14,7 @@
 
 h1 {
     text-align: center;
+
 }
 
 #imagem {
@@ -26,8 +27,8 @@ h1 {
 }
 
 #texto {
-    border-style: dashed;
-    border-color: rgb(94, 34, 34);
+    border-style: solid;
+    border-color: rgba(94, 34, 34, 0.493);
     background-color: rgb(49, 4, 4);
     width: fit-content;
     margin: 0 auto;
@@ -37,10 +38,10 @@ h1 {
 }
 
 #Status {
-    margin-top: 15px;
     border-style: dashed;
     border-color: rgb(94, 34, 34);
     background-color: rgb(49, 4, 4);
+    padding: 15px;
 
 }
 
@@ -66,12 +67,32 @@ h1 {
     color: firebrick;
 }
 
-#m60 {
-  position: absolute;
-  right: 300px;
-  top: 95%;
-}
-
 body {
     background-color: black;
+}
+
+#imagem2 {
+    width: 70%;
+}
+
+#texto {
+    width: 30%;
+}
+
+#caixona {
+    width: 100%;
+    display: flex;
+}
+
+#m60 {
+    width: 100%;
+    height: auto;
+}
+
+#titulo {
+    border-style: dashed;
+    border-color: rgb(94, 34, 34);
+    background-color: rgb(49, 4, 4);
+    width: fit-content;
+    margin: 0 auto 15px;
 }
